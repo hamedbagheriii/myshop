@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- ! slider 2 -->
+    <link rel="stylesheet" href="style/slider/cssfull.css">
+    <link rel="stylesheet" href="style/slider/css1.css" media="screen and (max-width: 1365px)"/>
+    <link rel="stylesheet" href="style/slider/css2.css" media="screen and (min-width: 1366px)"/>
+    <link rel="stylesheet" href="style/slider/css3.css" media="screen and (min-width: 1680px)"/>
+    <!-- ! slider plugin -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>digikala</title>
+</head>
+<body>
+
+    <!-- ! navbar -->
+    <div class="imgRamezan w-100">
+        <p class="invisible">show of !</p>
+    </div>
+    <div class="navbar navbar-expand-lg sticky-top bg-white rounded-bottom-3 shadow">
+        <div class="container-fluid d-flex flex-row">
+            <a href="#" class="me-auto shadow-none navbar-brand w-25">
+                <img src="media/IMG/logo.svg" width="100px" alt="">
+            </a>
+            <button type="button" class="navbar-toggler shadow-none border-2 border-dark" data-bs-toggle="offcanvas" data-bs-target=".offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start">
+                <div class="offcanvas-header border-bottom shadow">
+                    <a href="#" class="h1 offcanvas-title"><img src="media/IMG/logo.svg" width="100px" alt=""></a>
+                    <span class="btn-close" data-bs-dismiss="offcanvas"></span>
+                </div>
+                <div class="offcanvas-body pt-2 pt-lg-0">
+                    <div class="navbar-nav w-100 ms-auto flex-lg-row-reverse">
+                        <!-- ! in header -->
+                        <div class="nav-item me-4 my-4 my-lg-0  px-2">
+                            <button class="btn btn-header d-none w-100 d-lg-block   btn-outline-primary">سبد خرید <i class="bi bi-cart"></i></button>
+                            <a href="#" class=" d-lg-none nav-link dropdown-toggle fs-5"  data-bs-toggle="dropdown" data-bs-target="#dropdown-header">ورود / ثبت نام</a>
+                            <ul class="dropdown-menu shadow dropdown-menu-center border-0" id="dropdown-header">
+                                <li class="dropdown-item my-2"><a href="#" class="nav-link text-danger text">ورود به حساب<i class="bi fs-5 mx-2 arrow-heaer bi-arrow-left-square"></i></a></li>
+                                <li class="dropdown-item my-2"><a href="#" class="nav-link">
+                                    <span>حساب کاربری ندارید ؟</span>
+                                    <small class="text-primary">ثبت نام</small>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <!-- ! in offcanvas -->
+                        <div class="nav-item ms-lg-4 my-2 my-lg-0 px-2 dropdown">
+                            <div class="divider d-lg-none mb-5"><hr></div>
+                            <button class="btn btn-header d-none d-lg-block  btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#dropdown-header">ورود / ثبت نام</button>
+                            <ul class="dropdown-menu shadow dropdown-menu-center border-0" id="dropdown-header">
+                                <li class="dropdown-item my-2"><a href="#" class="nav-link text-danger text">ورود به حساب<i class="bi fs-5 mx-2 arrow-heaer bi-arrow-left-square"></i></a></li>
+                                <li class="dropdown-item my-2"><a href="#" class="nav-link">
+                                    <span>حساب کاربری ندارید ؟</span>
+                                    <small class="text-primary ms-1">ثبت نام</small>
+                                </a></li>
+                            </ul>
+                            <a href="#" class="nav-link d-lg-none fs-5">سبد خرید <i class="bi bi-cart"></i></a>
+                            <div class="divider d-lg-none mt-5"><hr></div>
+                        </div>
+                        <div class="nav-item form-header my-4 my-lg-0 me-auto">
+                            <form  class="input-group w-100">
+                                <input type="text" role="search" class="form-control " placeholder="نام کالا یا دسته مورد نظر خود را جستجو کنید .">
+                                <button type="button" class="btn btn-danger"><i class="bi bi-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! header menu -->
+    <nav class="navbar navbar-expand-sm text-bg-dark ">
+        <button
+        class="navbar-toggler mx-auto text-center border-0 navbar-toggler-style"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+      >
+        <span class="d-flex me-4 align-items-center">
+            <i class="bi bi-arrow-left-square text-danger fs-3 mt-1"></i>
+            <a href="#" class="text-decoration-none ms-2 text-bg-dark fs-5">محصولات</a>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- ! all dropdown -->   
+          <ul class="navbar-nav nav d-flex flex-md-row gap-5 px-2">
+              <!-- ! item 1 in menu -->
+              <li class="nav-item ">
+                    <a href="" class="nav-link dropdown-toggle tuitleMenu"  data-bs-toggle="dropdown">دیجیتال</a>
+                    <div class="dropdown-menu dropdown-menuss  border-0  border-bottom shadow-sm  w-100" id="menu-header">
+                        <div class="container-fluid">
+                            <div class="row px-2 gap-3 gap-sm-0">
+                                <!-- ! item in dropdown 1 -->
+                                <div class="col-12 col-sm-3">
+                                   <div class="top-link">
+                                    
+                                    <span class="d-flex  align-items-center">
+                                        <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                        <a href="#" class="text-decoration-none ms-2 text-dark fs-5">موبایل</a>
+                                    </span>
+                                    <ul class="list-group  list-group-flush text-uppercase">
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-dark  text-item ">
+                                                <i class="">sumsung</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-danger  text-item">
+                                                <i class="">Apple</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-dark text-item ">
+                                                <i class="">Xiaomi</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-danger  text-item">
+                                                <i class="">Huawei</i>
+                                             </a>
+                                        </li>
+                                        
+                                    </ul>
+                                   </div>     
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">لپ تاپ</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Razer</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Asus</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Lenovo</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                                 <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">تبلت</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">sumsung</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Lenovo</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Huawei</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                                 <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">کامپیوتر</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Asus</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">MSI</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">INtel</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- ! item 2 in menu -->
+                <li class="nav-item ">
+                    <a href="" class="nav-link dropdown-toggle tuitleMenu"  data-bs-toggle="dropdown">خانه</a>
+                    <div class="dropdown-menu fade border-0  border-bottom shadow-sm  w-100" id="menu-header">
+                        <div class="container-fluid">
+                            <div class="row px-2 gap-3 gap-sm-0">
+                                <!-- ! item in dropdown 1 -->
+                                <div class="col-12 col-sm-3">
+                                   <div class="top-link">
+                                    
+                                    <span class="d-flex  align-items-center">
+                                        <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                        <a href="#" class="text-decoration-none ms-2 text-dark fs-5">وسیله</a>
+                                    </span>
+                                    <ul class="list-group list-group-flush text-uppercase">
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-dark text-item ">
+                                                <i class="">sumsung</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-danger  text-item">
+                                                <i class="">Apple</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-dark text-item ">
+                                                <i class="">Xiaomi</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-danger  text-item">
+                                                <i class="">Huawei</i>
+                                             </a>
+                                        </li>
+                                        
+                                    </ul>
+                                   </div>     
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">لپ تاپ</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Razer</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Asus</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Lenovo</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                                 <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">تبلت</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">sumsung</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Lenovo</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Huawei</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                                 <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                        <span class="d-flex  align-items-center">
+                                            <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                            <a href="#" class="text-decoration-none ms-2 text-dark fs-5">کامپیوتر</a>
+                                        </span>
+                                        <ul class="list-group list-group-flush text-uppercase">
+                                            <li class="list-group-item px-0">
+                                                <a href="#" class="nav-link text-dark text-item ">
+                                                    <i class="">Asus</i>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-0">
+                                                <a href="#" class="nav-link text-danger  text-item">
+                                                    <i class="">Apple</i>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-0">
+                                                <a href="#" class="nav-link text-dark text-item ">
+                                                    <i class="">MSI</i>
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item px-0">
+                                                <a href="#" class="nav-link text-danger  text-item">
+                                                    <i class="">INtel</i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>     
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- ! item 3 in menu -->
+                <li class="nav-item ">
+                    <a href="" class="nav-link dropdown-toggle tuitleMenu"  data-bs-toggle="dropdown">کودک</a>
+                    <div class="dropdown-menu  border-0  border-bottom shadow-sm  w-100" id="menu-header">
+                        <div class="container-fluid">
+                            <div class="row px-2 gap-3 gap-sm-0">
+                                <!-- ! item in dropdown 1 -->
+                                <div class="col-12 col-sm-3">
+                                   <div class="top-link">
+                                    
+                                    <span class="d-flex  align-items-center">
+                                        <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                        <a href="#" class="text-decoration-none ms-2 text-dark fs-5">موبایل</a>
+                                    </span>
+                                    <ul class="list-group list-group-flush text-uppercase">
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-dark text-item ">
+                                                <i class="">sumsung</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-danger  text-item">
+                                                <i class="">Apple</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-dark text-item ">
+                                                <i class="">Xiaomi</i>
+                                             </a>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <a href="#" class="nav-link text-danger  text-item">
+                                                <i class="">Huawei</i>
+                                             </a>
+                                        </li>
+                                        
+                                    </ul>
+                                   </div>     
+                                </div>
+                                <!-- ! item in dropdown 2 -->
+                                <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">لپ تاپ</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Razer</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Asus</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Lenovo</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                                <!-- ! item in dropdown 3 -->
+                                 <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">تبلت</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">sumsung</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Lenovo</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Huawei</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                                <!-- ! item in dropdown 4 -->
+                                 <div class="col-12 col-sm-3">
+                                    <div class="top-link">
+                                     
+                                     <span class="d-flex  align-items-center">
+                                         <i class="bi bi-arrow-bar-left fs-3 text-danger mt-2"></i>
+                                         <a href="#" class="text-decoration-none ms-2 text-dark fs-5">کامپیوتر</a>
+                                     </span>
+                                     <ul class="list-group list-group-flush text-uppercase">
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">Asus</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">Apple</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-dark text-item ">
+                                                 <i class="">MSI</i>
+                                              </a>
+                                         </li>
+                                         <li class="list-group-item px-0">
+                                             <a href="#" class="nav-link text-danger  text-item">
+                                                 <i class="">INtel</i>
+                                              </a>
+                                         </li>
+                                     </ul>
+                                    </div>     
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- ! item 4 in menu -->
+                <li class="nav-item ">
+                    <a href="" class="nav-link tuitleMenu"  data-bs-toggle="dropdown">سوپر مارکت</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ! slider 1 -->
+    <div class="container-fluid  position-relative px-0">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators mx-auto" style="height: 7px;width: 25%;">
+                <!-- ! btn of show -->
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="5"></button>
+              </div>
+            <div class="carousel-inner">
+                <a href="#" class="carousel-item active" data-bs-interval="4000">
+                    <img src="media/IMG/slider 1.1.webp" class="img-fluid">
+                </a>
+                <a href="#" class="carousel-item" data-bs-interval="4000">
+                    <img src="media/IMG/slider 1.2.webp" class="img-fluid">
+                </a>
+                <a href="#" class="carousel-item" data-bs-interval="4000">
+                    <img src="media/IMG/slider1.3.webp" class="img-fluid">
+                </a>
+                <a href="#" class="carousel-item" data-bs-interval="4000">
+                    <img src="media/IMG/slider1.4.webp" class="img-fluid">
+                </a>
+                <a href="#" class="carousel-item" data-bs-interval="2000">
+                    <img src="media/IMG/slider1.5.gif" class="img-fluid">
+                </a>
+                <a href="#" class="carousel-item" data-bs-interval="4000">
+                    <img src="media/IMG/slider1.6.webp" class="img-fluid">
+                </a>
+            </div>
+        </div>
+        <!-- ! btn in next and perv -->
+        <div class="carousel arrowDiv position-absolute">
+            <div class=" px-5 py-4">
+                <button class="carousel-control-prev rounded-circle btn-NET-PRE1 " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button  class="carousel-control-next rounded-circle btn-NET-PRE2" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! label content -->
+    <div class="container-fluid px-0 mt-1 mt-lg-3">
+        <div class="w-100 pt-3 text-center labelContainer d-flex flex-wrap justify-content-evenly">
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <img src="media/IMG/label4.png" style="width: 52px;height: 52px;" alt="">
+                    <p class="mt-2" style="font-size: 10px;">دیجی کالا جت</p>
+                </a>
+            </div>
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <img src="media/IMG/label3.png" style="width: 52px;height: 52px;" alt="">
+                    <p class="mt-2" style="font-size: 10px;">دیجی پی</p>
+                </a>
+            </div>
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <img src="media/IMG/label2.png" style="width: 52px;height: 52px;" alt="">
+                    <p class="mt-2" style="font-size: 10px;">حراج استایل</p>
+                </a>
+            </div>
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <img src="media/IMG/label1.png" style="width: 52px;height: 52px;" alt="">
+                    <p class="mt-2" style="font-size: 10px;">حراج ماه رمضان</p>
+                </a>
+            </div>
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <img src="media/IMG/label7.png" style="width: 52px;height: 52px;" alt="">
+                    <p class="mt-2" style="font-size: 10px;">موبایل کارکرده</p>
+                </a>
+            </div>
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <img src="media/IMG/label6.png" style="width: 52px;height: 52px;" alt="">
+                    <p class="mt-2" style="font-size: 10px;">خرید چکی</p>
+                </a>
+            </div>
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <img src="media/IMG/label5.png" style="width: 52px;height: 52px;" alt="">
+                    <p class="mt-2" style="font-size: 10px;">گیم نت</p>
+                </a>
+            </div>
+            <div class="labelContent mt-2  d-flex justify-content-center align-items-center flex-column">
+                <a href="#">
+                    <span style="width: 52px;height: 52px;" class="d-flex align-items-center MoreLabelContent rounded-circle justify-content-center">
+                        <i class="bi bi-columns-gap fs-3 mt-2"></i>
+                    </span>
+                    <p class="mt-2" style="font-size: 10px;">بیشتر</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! servise -->
+    <div class="mt-1 mt-lg-3 container-fluid p-2">
+        <div class="w-100 d-flex justifuy-content-evenly mx-auto row px-2 py-2">
+            <div class="col-6 col-md-3 mt-4 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#" class="w-75 h-100 bg-dark shadow-sm card-body text-danger px-2  pt-4 rounded-4">
+                    <img src="media/IMG/serv3.svg" class="w-25" >
+                    <p class="card-title my-2 w-100">ضمانت اصالت کالا</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 mt-4 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#" class="w-75 h-100 serviseBG card-body shadow-sm text-dark bg-opacity-75 px-2 pt-4  rounded-4">
+                    <img src="media/IMG/serv1.svg" class="w-25 mt-1" >
+                    <p class="card-title my-2 w-100">ضمانت بازگشت وجه</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 mt-4 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#" class="w-75 h-100  bg-dark shadow-sm card-body text-danger px-2 pt-4  rounded-4">
+                    <img src="media/IMG/serv2.svg" class="w-25" >
+                    <p class="card-title my-2 w-100">پرداخت درب منزل</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 mt-4 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#" class="w-75 h-100 serviseBG card-body shadow-sm text-dark bg-opacity-75  pt-4 rounded-4">
+                    <img src="media/IMG/serv5.svg" class="w-25" >
+                    <p class="card-title my-2 w-100">پشتیبانی همه روزه</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! jashnvare -->
+    <div class="mt-2 mt-lg-3 container-fluid p-2">
+        <div class="w-100 d-flex justifuy-content-evenly mx-auto row px-2 py-2">
+            <div href="#" class="col-6 col-lg-3 mt-2 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#"><img src="media/IMG/jashnvare1.webp" class="img-fluid rounded-4" ></a>
+            </div>
+            <div href="#" class="col-6 col-lg-3 mt-2 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#"><img src="media/IMG/jashnvare2.webp" class="img-fluid rounded-4" ></a>
+            </div>
+            <div href="#" class="col-6 col-lg-3 mt-2 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#"><img src="media/IMG/jashnvare3.webp" class="img-fluid rounded-4" ></a>
+            </div>
+            <div href="#" class="col-6 col-lg-3 mt-2 card text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="#"><img src="media/IMG/jashnvare4.webp" class="img-fluid rounded-4" ></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! slider1 plugin 2 -->
+    <div class="container-fluid p-4 py-2 mt-3">
+            <div class="row px-2">
+                <div class="col-md-12 bg-opacity-25 bg-secondary shadow-sm rounded-4">
+                    <section class="slider slider1">
+                        <div class="">
+                            <div class="rounded-top-4 pt-4 ps-4 card-header-custom">
+                                <p class="fs-4">کالای دیجیتال</p>
+                            </div>
+                            <div class="card-body  px-3 py-4">
+                                <!-- ! all item -->
+                                <div class="owl-carousel bg-dark py-4 px-3 rounded-4 d-flex flex-row owl-theme">
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer  panel-footer-custom">
+                                                    <h4 class="sadasds">لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p class="sadasds">12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer  panel-footer-custom">
+                                                    <h4 class="sadasds">لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p class="sadasds">12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer  panel-footer-custom">
+                                                    <h4 class="sadasds">لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p class="sadasds">12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer  panel-footer-custom">
+                                                    <h4 class="sadasds">لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p class="sadasds">12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card ">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer panel-footer-custom">
+                                                    <h4>لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p>12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card ">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer panel-footer-custom">
+                                                    <h4>لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p>12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card ">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer panel-footer-custom">
+                                                    <h4>لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p>12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item  rounded-2">
+                                        <a href="product.html">
+                                            <div class="card ">
+                                                <div class="card-body panel-body-custom">
+                                                    <img src="media/IMG/1038130.jpg">
+                                                </div>
+                                                <div class="card-footer panel-footer-custom">
+                                                    <h4>لپ تاپ 15 اینچی ایسوس مدل VivoBook X541NA - D</h4>
+                                                    <p>12300 هزار تومان</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+    </div>
+
+    <!-- ! slider 2 -->
+    <div class="container-fluid rounded-0 mb-4 px-0 ">
+        <div class="row mx-auto  w-100 ">
+            <div class="col-md-12  px-0 ">
+                <section class="">
+                    <div class="c-discount shadow-none  rounded-0 h-25">
+                        <div class="c-box" style="font-size: 1px!important;">
+                            <div class="c-discount__content">
+                                <div class="js-discount-container  is-active  c-discount__content-container"
+                                     data-id="1">
+                                    <div class="c-discount__product js-discount-product  ">
+                                        <af
+                                                href="#"
+                                                aria-label="پخش کننده خانگی مکسیدر "
+                                                class="c-discount__product-url"></af>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider1.jpg"
+                                                             alt="پخش کننده خانگی مکسیدر سری MX-PS1403 مدل DV01">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۴۲۹,۰۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۳۰۹,۰۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۲۸
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">پخش کننده خانگی
+                                                            مکسیدر سری MX-PS1403 مدل DV01
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>صفحه نمایش لمسی: ندارد</li>
+                                                            <li>بلوتوث: دارد</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۳۰۹,۰۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="2">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href="#"
+                                            aria-label="ادو تویلت مردانه داویدف"
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider2.jpg"
+                                                             alt="ادو تویلت مردانه داویدف مدل Champion حجم 90 میلی لیتر">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۲۶۰,۰۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۱۵۹,۰۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۳۹
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">ادو تویلت مردانه
+                                                            داویدف مدل Champion حجم 90 میلی لیتر
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>نوع رایحه: تلخ</li>
+                                                            <li>نوع رایحه: خوراکی</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۱۵۹,۰۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="3">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href=""
+                                            aria-label="ماشین ظرفشویی رومیزی هاردستون "
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider3.jpg"
+                                                             alt="ماشین ظرفشویی رومیزی هاردستون مدل Silver DWM0601">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۲,۵۵۰,۰۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۲,۱۹۹,۰۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۱۴
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">ماشین ظرفشویی رومیزی
+                                                            هاردستون مدل Silver DWM0601
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>قفسه بالا: دارد</li>
+                                                            <li>نمایشگر: بله</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۲,۱۹۹,۰۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="4">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href=""
+                                            aria-label="کیف اداری "
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider4.jpg"
+                                                             alt="کیف اداری مدل 1-344"></div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۱۰۴,۵۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۶۹,۰۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۳۴
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">کیف اداری مدل 1-344
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>نوع: کیف اداری</li>
+                                                            <li>نحوه حمل: رودوشی</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۶۹,۰۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="5">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href=""
+                                            aria-label="لامپ ال ای دی 12 وات بروکس "
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider5.jpg"
+                                                             alt="لامپ ال ای دی 12 وات بروکس مدل A60 پایه E27">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۱۷,۶۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۱۰,۵۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۴۱
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">لامپ ال ای دی 12 وات
+                                                            بروکس مدل A60 پایه E27
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>شکل ظاهری: حبابی</li>
+                                                            <li>بازه توان مصرفی: 10.5 تا 20 وات</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۱۰,۵۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="6">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href="#"
+                                            aria-label="ادو پرفیوم زنانه روبرتو ویزاری"
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider6.jpg"
+                                                             alt="ادو پرفیوم زنانه روبرتو ویزاری مدل COQUETTEحجم 100 میلی لیتر">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۲۷۰,۰۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۱۹۹,۰۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۲۷
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">ادو پرفیوم زنانه
+                                                            روبرتو ویزاری مدل COQUETTEحجم 100 میلی لیتر
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>نوع رایحه: شیرین</li>
+                                                            <li>نوع رایحه: خنک</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۱۹۹,۰۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="7">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href=""
+                                            aria-label="ترشی میکس مکزیکی"
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider7.jpg"
+                                                             alt="ترشی میکس مکزیکی گل باز"></div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۱۱,۷۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۷,۹۹۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۳۲
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">ترشی میکس مکزیکی گل
+                                                            باز
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>مقدار ۵۰۰ گرم</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۷,۹۹۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="8">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href=""
+                                            aria-label="کفش مخصوص دویدن مردانه آلبرتین"
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider8.jpg"
+                                                             alt="کفش مخصوص دویدن مردانه آلبرتینی مدل دانشجو کد 2808">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۱۲۹,۰۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۸۷,۰۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۳۳
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">کفش مخصوص دویدن
+                                                            مردانه آلبرتینی مدل دانشجو کد 2808
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>نوع: کفش پیاده روی و دویدن</li>
+                                                            <li>جنس رویه کفش: الیاف مصنوعی</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۸۷,۰۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="9">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href="#"
+                                            aria-label="تلفن بی‌سیم پاناسونیک "
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider9.jpg"
+                                                             alt="تلفن بی‌سیم پاناسونیک مدل KX-TGD310">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۳۳۰,۰۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۳۰۸,۰۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۷
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">تلفن بی‌سیم پاناسونیک
+                                                            مدل KX-TGD310
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>تعداد گوشی های بی سیم: یک عدد</li>
+                                                            <li>تعداد خطوط: 1</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۳۰۸,۰۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="js-discount-container    c-discount__content-container"
+                                     data-id="10">
+                                    <div class="c-discount__product js-discount-product  "><a
+                                            href="#"
+                                            aria-label="ریمل حالت دهنده INLAY"
+                                            class="c-discount__product-url"></a>
+                                        <div class="o-grid">
+                                            <div class="row no-gutters">
+                                                <div class="col-6">
+                                                    <div class="c-discount__img js-url">
+                                                        <img src="media/IMG/imgslider10.jpg"
+                                                             alt="ریمل حالت دهنده INLAY مدل Exreme Length">
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__price">
+                                                            <div class="c-discount__price--primary"><span
+                                                                    class="c-discount__price--original">۲۷,۵۰۰
+                                                                        <span>تومان</span></span><span
+                                                                    class="c-discount__price--now">۱۷,۵۰۰
+                                                                            <span>تومان</span></span></div>
+                                                            <div class="c-discount__price--discount">
+                                                                <div class="c-discount__price--discount-content">
+                                                                    ٪۳۷
+                                                                    <span> تخفیف </span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-invisible-call btn-invisible-call--finished-incredible">
+                                                            اتمام موجودی شگفت‌انگیز
+                                                        </div>
+                                                        <div class="c-discount__title">ریمل حالت دهنده INLAY
+                                                            مدل Exreme Length
+                                                        </div>
+                                                        <ul class="c-discount__ul">
+                                                            <li>ضد آب: خیر</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="c-discount__row-container">
+                                                        <div class="c-discount__counter c-discount__counter--main">
+                                                            <div class="c-counter js-counter-incredible"
+                                                                 data-countdown="2018-09-23 00:00:57"
+                                                                 data-countdownseconds="27112"></div>
+                                                            <div class="c-discount__counter-title">زمان
+                                                                باقیمانده تا
+                                                                پایان
+                                                                سفارش
+                                                            </div>
+                                                        </div>
+                                                        <div class="c-discount__counter c-discount__counter--finished">
+                                                            <div class="c-discount__price c-discount__price--normal">
+                                                                <div class="c-discount__price--primary"><span
+                                                                        class="c-discount__price--now">۱۷,۵۰۰
+                                                                        تومان</span><span class="c-discount__counter-title">
+                                                                        بدون تخفیف شگفت‌انگیز
+                                                                    </span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-discount__aside c-discount__aside_custom mt-5">
+                                <div class="c-discount__aside-container shadow-sm js-discount-slider">
+                                    <ul class="c-discount__aside-ul">
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item   is-active"
+                                                                            data-id="1"><span>پخش کننده خانگی مکسیدر </span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="2"><span>ادو تویلت مردانه داویدف</span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="3"><span>ماشین ظرفشویی رومیزی هاردستون </span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href="#"
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="4"><span>کیف اداری </span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="5"><span>لامپ ال ای دی 12 وات بروکس </span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="6"><span>ادو پرفیوم زنانه روبرتو ویزاری</span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="7"><span>ترشی میکس مکزیکی</span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="8"><span>کفش مخصوص دویدن مردانه آلبرتین</span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="9"><span>تلفن بی‌سیم پاناسونیک </span></a>
+                                        </li>
+                                        <li class="c-discount__aside-li"><a href=""
+                                                                            class="c-discount__aside-a js-discount-item  "
+                                                                            data-id="10"><span>ریمل حالت دهنده INLAY</span></a>
+                                        </li>
+                                    </ul>
+                                    <a href="#"
+                                       class="btn btn-danger d-flex align-items-center justifuy-content-evenly flex-row-reverse btn_custom1">
+                                            <div class="spinner-grow me-5  ms-2" role="status" style="width: 20px ; height: 20px;;">
+                                            </div>
+                                        مشاهده همه شگفت‌انگیزها
+                                    </a></div>
+                                <div class="c-discount__aside-btn-next js-discount-slider-next">
+                                    <i class="material-icons">
+                                
+                                    </i>
+                                </div>
+                                <div class="c-discount__aside-btn-prev js-discount-slider-prev">
+                                    <i class="material-icons">
+                                        
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! shop card -->
+    <div class="mt-1 mt-lg-3 container-fluid p-4" >
+        <div class="w-100 bg-secondary bg-opacity-25 rounded-4 d-flex justifuy-content-evenly mx-auto row px-3 pt-3 pb-4 shadow-sm">
+            <p class="card-title mt-3 w-100 fs-4 fw-bold text-danger">ایرپاد مورد علاقه شما :</p>
+            <div class="col-6 col-md-3 mt-2  text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="product.html" class="w-100 h-100 bg-white text-danger px-2 py-4 rounded-4 shopCard"  style="max-width: 200px;">
+                    <img src="media/IMG/airpod1.jpg" class="img-fluid d-block w-100" >
+                    <p class="card-title mt-3 w-100 fw-semibold">منتخب ماه</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 mt-2  text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="product.html" class="w-100 h-100 bg-white text-dark px-2 py-4  rounded-4 shopCard" style="max-width: 200px;"> 
+                    <img src="media/IMG/airpod2.jpg" class="img-fluid d-block w-100" >
+                    <p class="card-title mt-3 w-100 fw-semibold">منتخب هفته</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 mt-2  text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="product.html" class="w-100 h-100  bg-white text-danger px-2 py-4  rounded-4 shopCard" style="max-width: 200px;">
+                    <img src="media/IMG/airpod3.jpg" class="img-fluid d-block w-100" >
+                    <p class="card-title mt-3 w-100 fw-semibold">منتخب هفته</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 mt-2  text-center border-0 d-flex justify-content-center p-2 align-items-center flex-column">
+                <a href="product.html" class="w-100 h-100  bg-white text-dark  px-2 py-4 rounded-4 shopCard"  style="max-width: 200px;">
+                    <img src="media/IMG/airpod5.jpg" class="img-fluid d-block w-100" >
+                    <p class="card-title mt-3 w-100 fw-semibold">منتخب امروز</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! slider2 plugin 2 -->
+    <div class="container-fluid p-4 mt-2 px-4">
+    <div class="row px-2">
+        <!-- ! col 1 -->
+        <div class="col-md-12 bg-secondary bg-opacity-25 shadow-sm rounded-4 mt-2">
+            <section class="slider slider2">
+                <div class="">
+                    <div class="rounded-top-4 pt-4 ps-4 card-header-custom">
+                        <p class="fs-4">کالای پوشیدنی</p>
+                    </div>
+                    <div class="card-body  px-3 py-4">
+                        <!-- ! all item -->
+                        <div class="owl-carousel bg-danger  py-4 px-3 rounded-4 d-flex flex-row owl-theme">
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item  rounded-2">
+                                <a href="product.html" class="cardSH">
+                                    <div class="card  cardSH">
+                                        <div class="card-body panel-body-custom">
+                                            <img src="media/IMG/2836814.jpg">
+                                        </div>
+                                        <div class="card-footer panel-footer-custom">
+                                            <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                            <p>12300 هزار تومان</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+
+    <!-- ! servise 2 -->
+    <div class="mt-2 h-100 w-100 mt-lg-3 container-fluid p-2">
+        <div class="w-100  mx-auto d-flex justify-content-evenly align-items-center mx-auto row px-4  py-3">
+            <div  class="card col-5 col-md-5 col-lg-3 card text-center border-0 mt-0 px-lg-3 px-0 d-flex justify-content-center align-items-center p-0 rounded-4 flex-column serviseDiv2">
+                <img src="media/IMG/ads8.jpg" class="img-fluid rounded-3" >
+            </div>
+            <div  class="card col-5 col-md-5 col-lg-3 card text-center border-0 mt-0 px-lg-3 px-0 d-flex justify-content-center align-items-center p-0 rounded-4 flex-column serviseDiv2">
+                <img src="media/IMG/ads5.jpg" class="img-fluid rounded-3" >
+            </div>
+            <div  class="card col-5 col-md-5 col-lg-3 card text-center border-0 mt-4 mt-lg-0 px-lg-3 px-0 d-flex justify-content-center align-items-center p-0 rounded-4 flex-column serviseDiv2">
+                <img src="media/IMG/ads6.jpg" class="img-fluid rounded-3" >
+            </div>
+            <div  class="card col-5 col-md-5 col-lg-3 card text-center border-0 mt-4 mt-lg-0 px-lg-3 px-0 d-flex justify-content-center align-items-center p-0 rounded-4 flex-column serviseDiv2">
+                <img src="media/IMG/ads7.jpg" class="img-fluid rounded-3" >
+            </div>
+        </div>
+    </div>
+
+    <!-- ! slider3 plugin 3 -->
+    <div class="container-fluid p-4 py-2 mb-5 mt-4">
+        <div class="row px-2">
+            <div class="col-md-12  bg-dark shadow-sm rounded-4">
+                <section class="slider slider3 slider2">
+                    <div class="">
+                        <div class="rounded-top-4 pt-4 ps-4 text-white card-header-custom">
+                            <p class="fs-4">خانه و آشپزخانه</p>
+                        </div>
+                        <div class="card-body  px-3 py-4">
+                            <!-- ! all item -->
+                            <div class="owl-carousel owl-carousel3 bg-info bg-opacity-50 py-4 px-3 rounded-4 d-flex flex-row owl-theme">
+                                <div class="item  rounded-2"> 
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2766832.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>برنج محسن 10 کیلویی</h4>
+                                                <p>12،000 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card  cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/1687421.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card  cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/3307088.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2"> 
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2766832.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>برنج محسن 10 کیلویی</h4>
+                                                <p>12،000 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card  cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/1687421.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card  cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/3307088.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2"> 
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2766832.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>برنج محسن 10 کیلویی</h4>
+                                                <p>12،000 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card  cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/1687421.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="product.html" class="cardSH">
+                                        <div class="card  cardSH cardSH2">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/3307088.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! gym section -->
+    <div class="container-fluid px-4 rounded-5 my-4 my-md-5 gym">
+        <div class="row rounded-5">
+            <img src="media/IMG/2066.jpg" class="col-12 col-md-6 rounded-5 img-fluid" alt="">
+            <img src="media/IMG/2070.jpg" class="col-12 col-md-6 rounded-5 img-fluid mt-4 mt-md-0" alt="">
+        </div>
+    </div>
+
+    <!-- ! slider4 plugin 2 -->
+    <div class="container-fluid p-4 mt-2 px-4">
+        <div class="row px-2">
+            <!-- ! col 1 -->
+            <div class="col-md-12 bg-secondary bg-opacity-25 shadow-sm rounded-4 mt-2">
+                <section class="slider slider2">
+                    <div class="">
+                        <div class="rounded-top-4 pt-4 ps-4 card-header-custom">
+                            <p class="fs-4">کالای پوشیدنی</p>
+                        </div>
+                        <div class="card-body  px-3 py-4">
+                            <!-- ! all item -->
+                            <div class="owl-carousel bg-danger  py-4 px-3 rounded-4 d-flex flex-row owl-theme">
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card  cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/2836814.jpg">
+                                            </div>
+                                            <div class="card-footer panel-footer-custom">
+                                                <h4>مچ بند هوشمند شیائومی مدل Mi Band 3</h4>
+                                                <p>12300 هزار تومان</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! slider5 plugin 2 -->
+    <!-- ! brand -->
+    <div class="container-fluid p-4 mt-2 px-4">
+        <div class="row px-2">
+            <!-- ! col 1 -->
+            <div class="col-md-12 bg-secondary bg-opacity-25 shadow-sm rounded-4 mt-2">
+                <section class="slider slider2">
+                    <div class="">
+                        <div class="rounded-top-4 pt-4 ps-4 card-header-custom">
+                            <p class="fs-5">برند های ویژه</p>
+                        </div>
+                        <div class="card-body ">
+                            <!-- ! all item -->
+                            <div class="owl-carousel owl-carousel5 py-4 px-3 rounded-4 d-flex flex-row owl-theme">
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card  cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/lg.png">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card  cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/pa.png">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card  cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/par.png">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card  cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/sa.png">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item  rounded-2">
+                                    <a href="#" class="cardSH">
+                                        <div class="card  cardSH">
+                                            <div class="card-body panel-body-custom">
+                                                <img src="media/IMG/xv.png">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! footer1 -->
+    <div class="row w-100 mx-auto d-none footer1 d-md-block p-4 mt-5">
+        <!-- ! servise -->
+        <div class="col-12 d-flex justify-content-evenly align-items-center">
+            <div class="d-flex flex-column justify-content-center text-center">
+                <img src="media/IMG/serv1.svg" class="w-50 mx-auto mt-4" alt="">
+                <p class="h6 mt-1">هفت روز ضمانت بازگشت</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center text-center">
+                <img src="media/IMG/serv2.svg" class="w-50 mx-auto" alt="">
+                <p class="h6 mt-3">هفت روز ضمانت بازگشت</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center text-center">
+                <img src="media/IMG/serv3.svg" class="w-50 mx-auto" alt="">
+                <p class="h6 mt-3">هفت روز ضمانت بازگشت</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center text-center">
+                <img src="media/IMG/serv5.svg" class="w-50 mx-auto" alt="">
+                <p class="h6 mt-3">هفت روز ضمانت بازگشت</p>
+            </div>
+        </div>
+        
+        <div class="dividerF">
+            <hr class="mx-auto">
+        </div>
+
+        <!-- ! links -->
+        <div class="col-12 mx-auto d-flex flex-row row px-0">
+            <div class="col-8 d-flex justify-content-between">
+                <ul class="list-unstyled">
+                    <li class="mt-2 mb-3 fw-bold pe-none text-danger titleList">راهنمایی خرید از دیجی کالا</li>
+                    <li class="my-2">نحوه ثبت سفارش</li>
+                    <li class="my-2">رویه ارسال سفارش</li>
+                    <li class="my-2">شیهوه های پرداخت</li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li class="mt-2 mb-3 fw-bold pe-none text-danger titleList">خدمات مشتریان</li>
+                    <li class="my-2">پاسخ به پرسش های متداول</li>
+                    <li class="my-2">رویه های بازگردانی کالا</li>
+                    <li class="my-2">شرایط استفاده</li>
+                    <li class="my-2">حریم خصوصی</li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li class="mt-2 mb-3 fw-bold pe-none text-danger titleList">با دیجی کالا</li>
+                    <li class="my-2">فروش در دیجی کالا</li>
+                    <li class="my-2">همکاری با سازمان ها</li>
+                    <li class="my-2">فرصت های شغلی</li>
+                    <li class="my-2">درباره دیجی کالا</li>
+                    <li class="my-2">تماس با ما</li>
+                </ul>
+            </div>
+            <div class="col-4 text-center d-flex flex-column justify-content-start align-items-center">
+                <p class="mt-2 mb-3 fw-bold pe-none w-100 footerContact">از تخفیف ها و جدیدترین های دیجی کالا باخبر شوید :</p>
+                <div class="input-group w-75">
+                    <input type="text" id="email" class="form-control">
+                    <button class="btn btn-info fw-bold text-center"  style="font-size: 13px;">ارسال</ر>
+                </div>
+                <p class="mt-4 mb-3 me-4 pe-none w-100 fw-bold footerContact">دیجی کالا را در شبکه های اجتماعی دنبال کنید :</p>
+                <div class="w-75  bg-danger user-select-none  p-1 rounded-4 instagrams">
+                    <img src="media/IMG/instagrams.svg" alt="" class="">
+                    <span class="footerContact ms-1 fw-bold text-white">اینستاگرام دیجی کالا</span>
+                </div>
+            </div>
+                    
+            <div class="dividerF">
+                <hr class="mx-auto">
+            </div>
+
+            <div class="col-12">
+                <p class="mt-4 mb-3 me-4 pe-none w-100 fw-bolder footerTextEnd fs-6">هفت روز هفته ، 24 ساعت شبانه روز پاسخگوی شما هستیم .<p>
+                <p class="mt-2 mb-3 me-4 pe-none w-100 fw-bolder footerTextEnd " style="font-size: 14px;">شماره تماس : 61930000 - 95119095 : 021 | آدرس ایمیل : info@digikala.com</p>
+                <img src="media/IMG/bazar.png" alt="" class="socialIcon me-2">
+                <img src="media/IMG/sibapp.png" alt="" class="socialIcon">
+            </div>
+        </div>
+    </div>
+
+    <!-- ! footer 2 -->
+    <div class="row w-100 justify-content-center mx-auto d-flex flex-row footer2 p-4 pb-0 pt-5">
+        <div class="col-12 col-md-7 mb-3 mb-md-0">
+            <p class="mt-3 pe-none w-100 fw-bold text-danger" style="font-size: 16px;">فروشگاه اینترنتی دیجی کالا ، برسی ، انتخاب و خرید آنلاین<p>
+            <span class="mt-3 pe-none w-100 d-inline fw-sm text-opacity-75 text-dark" style="font-size: 13px;">دیجی‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل کلیدی، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا، موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به دیجی‌کالا با یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.</span>
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+            <img src="media/IMG/img_footer.JPG" class="img_footer">
+        </div>
+        <div class="col-12 gap-3 gap-md-0 flex-md-row d-flex justify-content-evenly mt-4  align-items-center">
+            <div class="row w-100 d-flex row-cols-2 row-cols-md-4 mx-auto align-items-center justify-content-between">
+                <img src="media/IMG/img_footer1.svg" alt="" class="img_footer1 ">
+                <img src="media/IMG/img_footer2.svg" alt="" class="img_footer1">
+                <img src="media/IMG/img_footer3.svg" alt="" class="img_footer1  mt-3 mt-md-0">
+                <img src="media/IMG/img_footer4.svg" alt="" class="img_footer1 mt-3 mt-md-0">
+            </div>
+        </div>
+    
+        <div class="dividerF mt-1">
+            <hr class="mx-auto">
+        </div>
+        <p class="mt-1 pe-none w-100  text-dark text-center" style="font-size: 13px;">استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) می‌باشد.</p>
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/slider1.js"></script>
+    <script src="js/slider2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
+
+
+        
